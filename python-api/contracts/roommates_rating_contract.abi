@@ -1,0 +1,273 @@
+[
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "roommateAlias",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "groupName",
+                "type": "string"
+            }
+        ],
+        "name": "addGroupMember",
+        "outputs": [
+            {
+                "internalType": "enum RoommatesRating.Status",
+                "name": "",
+                "type": "uint8"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "roommateAlias",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "groupName",
+                "type": "string"
+            }
+        ],
+        "name": "confirmGroupJoinRequest",
+        "outputs": [
+            {
+                "internalType": "enum RoommatesRating.Status",
+                "name": "",
+                "type": "uint8"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "groupName",
+                "type": "string"
+            }
+        ],
+        "name": "createGroup",
+        "outputs": [
+            {
+                "internalType": "enum RoommatesRating.Status",
+                "name": "",
+                "type": "uint8"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "roommateAlias",
+                "type": "string"
+            }
+        ],
+        "name": "geRoommateRaiting",
+        "outputs": [
+            {
+                "internalType": "uint8",
+                "name": "",
+                "type": "uint8"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "groupName",
+                "type": "string"
+            }
+        ],
+        "name": "getGroupMembers",
+        "outputs": [
+            {
+                "internalType": "string[]",
+                "name": "",
+                "type": "string[]"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "groupName",
+                "type": "string"
+            }
+        ],
+        "name": "getGroupMembershipRequests",
+        "outputs": [
+            {
+                "internalType": "string[]",
+                "name": "",
+                "type": "string[]"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "getGroups",
+        "outputs": [
+            {
+                "internalType": "string[]",
+                "name": "",
+                "type": "string[]"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "roommateAlias",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "groupName",
+                "type": "string"
+            }
+        ],
+        "name": "passGroupOwnership",
+        "outputs": [
+            {
+                "internalType": "enum RoommatesRating.Status",
+                "name": "",
+                "type": "uint8"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "groupName",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "roommateAlias",
+                "type": "string"
+            },
+            {
+                "internalType": "uint8",
+                "name": "value",
+                "type": "uint8"
+            }
+        ],
+        "name": "rateRoommate",
+        "outputs": [
+            {
+                "internalType": "enum RoommatesRating.Status",
+                "name": "",
+                "type": "uint8"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "roommateAlias",
+                "type": "string"
+            }
+        ],
+        "name": "registration",
+        "outputs": [
+            {
+                "internalType": "enum RoommatesRating.Status",
+                "name": "",
+                "type": "uint8"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "groupName",
+                "type": "string"
+            }
+        ],
+        "name": "removeGroup",
+        "outputs": [
+            {
+                "internalType": "enum RoommatesRating.Status",
+                "name": "",
+                "type": "uint8"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "roommateAlias",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "groupName",
+                "type": "string"
+            }
+        ],
+        "name": "removeGroupMember",
+        "outputs": [
+            {
+                "internalType": "enum RoommatesRating.Status",
+                "name": "",
+                "type": "uint8"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "groupName",
+                "type": "string"
+            }
+        ],
+        "name": "requestGroupMembership",
+        "outputs": [
+            {
+                "internalType": "enum RoommatesRating.Status",
+                "name": "",
+                "type": "uint8"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+]
