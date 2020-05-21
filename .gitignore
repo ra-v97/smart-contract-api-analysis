@@ -1,1 +1,4 @@
 .ipynb_checkpoints/
+
+# truffle suite
+truffle-suite/build/*
